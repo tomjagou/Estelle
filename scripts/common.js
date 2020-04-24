@@ -47,7 +47,7 @@ if (!$.cookie('ZINGcalendar')) {
             var calendar = $(this);
 
             calendar.find('li').each(function() {
-                if (settings.month == 12 && settings.date >= parseInt($(this).find('.day').text(), 10)) {
+                if (settings.month == 04 && settings.date >= parseInt($(this).find('.day').text(), 10)) {
                     $(this).addClass('active');
                 } else {
                     $(this).removeClass('active');
